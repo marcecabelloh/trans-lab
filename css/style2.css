@@ -1,0 +1,20 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color: #dddee0;
+}
+
+.nav-wrapper{
+	background-color: #393d40;
+}
+
+.btn-large{
+	background-color: #f6a800;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.btn-prcpal{
+	margin-top: 200px;
+}

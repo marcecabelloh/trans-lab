@@ -1,10 +1,10 @@
 /* YeyeYeee código aquí */
 
-/*primer index */
+/*Estilos para primer index */
 body{
 	margin: 0;
 	padding: 0;
-	background-color: #393d40
+	background-color: #393d40;
 }
 
 
@@ -13,7 +13,7 @@ img{
 	margin-top: 80px;
 }
 
-h2{
+h3{
 	color: #f6a800;
 }
 
@@ -27,4 +27,5 @@ p{
 
 .btn-large{
 	background-color: #f6a800;
+	width: 100%;
 }
