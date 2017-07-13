@@ -1,1 +1,30 @@
 /* YeyeYeee código aquí */
+
+/*primer index */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #393d40
+}
+
+
+img{
+	width: 40%;
+	margin-top: 80px;
+}
+
+h2{
+	color: #f6a800;
+}
+
+p{
+	color: white;
+}
+
+.parr-final{
+	font-size: 16px;
+}
+
+.btn-large{
+	background-color: #f6a800;
+}
