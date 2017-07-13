@@ -18,3 +18,23 @@ body{
 .btn-prcpal{
 	margin-top: 200px;
 }
+
+/*Inicio index 3 perfil usuario*/
+.img-usuario{
+	width: 50%;
+	margin-top: 50px;
+}
+
+.usuario{
+	background-color: #f6a800;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.input-usuario{
+	margin-top: 30px;
+	height: 30px;
+	width: 80%;
+}
+
+/*inicio index 4 preguntas frecuentes*/
