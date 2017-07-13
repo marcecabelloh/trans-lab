@@ -38,3 +38,33 @@ body{
 }
 
 /*inicio index 4 preguntas frecuentes*/
+
+h4{
+	color: white;
+	margin-top: 60px;
+}
+
+.collapsible-body{
+	background-color: white;
+}
+
+.collapsible{
+	margin-top: 50px;
+}
+
+
+/*index5 ver saldo*/
+
+.ver-saldo{
+	margin-top: 60px;
+}
+
+.select{
+	margin-top: 40px;
+}
+
+.btn-saldo{
+	margin-top: 50px;
+}
+
+/*index 6 calcular tarifa*/
