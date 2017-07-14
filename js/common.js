@@ -21,15 +21,15 @@ $(document).ready(function() {
 			$('#btn').attr('href', url);// al hacer click en boton y si se llenan los campos correctamente, nos envía a index2
 		}
 	}
-});
+
 
 
 /*perfil usuario: que al ingresar número de tarjeta bip imprima número dentro de una caja*/
 
 $('#btn-tarjeta').click(function(){
 	var valorTarjeta = $('#tarjeta').val();
-	var cajita= $('#contenedor').append('<input type= number>');
-	cajita.html(valorTarjeta);
+	 $('#contenedor').append('<p>'+ valorTarjeta +'</p>');
 
+});
 
-})
+});
