@@ -27,7 +27,7 @@ $(document).ready(function() {
 /*perfil usuario: que al ingresar número de tarjeta bip imprima número dentro de una caja*/
 
 $('#btn-tarjeta').click(function(){
-	valorTarjeta = $('#tarjeta').val();
+	var valorTarjeta = $('#tarjeta').val();
 	var cajita= $('#contenedor').append('<input type= number>');
 	cajita.html(valorTarjeta);
 
