@@ -1,9 +1,10 @@
 /*llama api saldo Bip!*/
 //id de mi botón
+
+
 $("#boton-saldo").on("click", function(e){
 	e.preventDefault();
       var id = ($("#num-tarjeta").val());//id de mi input 
-      var inputCalcular = ($("#calcularTarifa").val());
         $.ajax({
             url:'https://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip='+id+'',
             type: 'GET',
@@ -14,16 +15,15 @@ $("#boton-saldo").on("click", function(e){
             //id de mi div vació dentro del html5
             $("#imprimir").append('<p class= par-saldo>Su saldo es:</p>' + '<p class= par-resultado>'+ response.saldoTarjeta + '</p>')
         })
-        //función para imprimir calculo de saldo
+        //función para imprimir calculo de saldo: La lógica es tomar el valor de 
+        //acuerdo al horario la tarifa correspondiente y que este solo sean números para
+        //que puedan restarse con el saldo de la tarjeta y así calcular tu saldo real
 
-        var valor1 = $('#alto').val();
-        var valor2 = $('#medio').val();
-        var valor3 = $('#bajo').val();
-        
-
-        .fail(function(){
+       .fail(function(){
             console.log("error");
         });
            });
+
+
 
 
