@@ -16,7 +16,7 @@ body{
 }
 
 .btn-prcpal{
-	margin-top: 200px;
+	margin-top: 100px;
 }
 
 /*Inicio index 3 perfil usuario*/
@@ -35,6 +35,10 @@ body{
 	margin-top: 30px;
 	height: 30px;
 	width: 80%;
+}
+
+#input-tarjeta{
+	margin-top: 30px;
 }
 
 /*inicio index 4 preguntas frecuentes*/
