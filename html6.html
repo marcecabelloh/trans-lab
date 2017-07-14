@@ -31,7 +31,7 @@
 <div class="container ver-saldo">  
   <div class="row">
     <div class="input-field col s12">
-      <input id="password" type="password" class="validate">
+      <input id="calcularTarifa" type="password" class="validate">
       <label for="password">Numero tarjeta</label>     
     </div>
   </div>   
@@ -43,13 +43,13 @@
  <div class="container select">  
   <div class="row">
     <div class="col s6">
-    <label>Tarifa</label>
+    <label>Horario</label>
      
       <select class="browser-default" initialized>
-        <option value="" initialized selected>Choose your option</option>
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
+        <option value="" initialized selected>Escoge tu horario</option>
+        <option value="1" id="alto">Horario Alto: $740</option>
+        <option value="2" id="medio">Horario Medio: $680</option>
+        <option value="3" id="bajo">Horario Bajo: $640</option>
       </select>
     </div>  
 
@@ -57,7 +57,7 @@
     <label>Tarjeta</label>
 
       <select class="browser-default" initialized>
-        <option value="" initialized selected>Choose your option</option>
+        <option value="" initialized selected>Escoge tu tarjeta</option>
         <option value="1">Option 1</option>
         <option value="2">Option 2</option>
         <option value="3">Option 3</option>
@@ -68,10 +68,21 @@
      <a class="waves-effect waves-light btn-large btn-saldo" href=""></i>CALCULAR</a>
    </div>
  </div><!-- termino sección -->
-
 </div>
+
+<div class="container select">  
+  <div class="row">
+    <div class="col s12">
+      <div id="printCalculo" class="center">
+        <!-- div vacio que contiene la info que proviene de la api -->
+      </div>
+    </div>
+   </div>
+  </div> 
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/api.js"></script>
 </body>
 </html>

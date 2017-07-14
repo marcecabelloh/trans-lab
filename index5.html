@@ -31,7 +31,7 @@
 <div class="container ver-saldo">  
   <div class="row">
     <div class="input-field col s12">
-      <input id="password" type="password" class="validate">
+      <input id="num-tarjeta" type="password" class="validate">
       <label for="password">Numero tarjeta</label>     
     </div>
   </div>   
@@ -50,14 +50,24 @@
         <option value="3">Option 3</option>
       </select>
       <!-- botón -->
-      <a class="waves-effect waves-light btn-large btn-saldo" href=""></i>VER SALDO</a>
+      <a class="waves-effect waves-light btn-large btn-saldo" href="" id="boton-saldo"></i>VER SALDO</a>
     </div>
   </div>   
 </div><!-- termino sección -->
 
+<div class="container select">  
+  <div class="row">
+    <div class="col s12">
+      <div id="imprimir" class="center">
+        <!-- div vacio que contiene la info que proviene de la api -->
+      </div>
+    </div>
+   </div>
+  </div> 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/api.js"></script>
 </body>
 </html>

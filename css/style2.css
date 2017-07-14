@@ -41,6 +41,10 @@ body{
 	margin-top: 30px;
 }
 
+.print-tarjeta{
+	background-color: white;
+}
+
 /*inicio index 4 preguntas frecuentes*/
 
 h4{
@@ -54,6 +58,14 @@ h4{
 
 .collapsible{
 	margin-top: 50px;
+}
+
+.preguntas{
+	color: #f6a800;
+}
+
+.sec-preguntas{
+	color: #f6a800;
 }
 
 
@@ -71,4 +83,20 @@ h4{
 	margin-top: 50px;
 }
 
-/*index 6 calcular tarifa*/
+.par-saldo{
+	background-color: #393d40 ;
+	color: white;
+	padding: 20px;
+}
+
+.par-resultado{
+	background-color: #f6a800;
+	color: white;
+	padding: 30px;
+	
+}
+
+/*iconos sidenav*/
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons{
+	color: #f6a800;
+}

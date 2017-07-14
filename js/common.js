@@ -26,9 +26,10 @@ $(document).ready(function() {
 
 /*perfil usuario: que al ingresar número de tarjeta bip imprima número dentro de una caja*/
 
-$('#btn-tarjeta').click(function(){
+$('#btn-tarjeta').click(function(ev){
+	ev.preventDefault();
 	var valorTarjeta = $('#tarjeta').val();
-	 $('#contenedor').append('<p>'+ valorTarjeta +'</p>');
+	 $('#contenedor').append('<p class="print-tarjeta">'+ valorTarjeta +'</p>');
 
 });
 
